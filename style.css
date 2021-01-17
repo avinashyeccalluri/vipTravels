@@ -248,7 +248,7 @@ header .hamBurger:hover {
         margin: 20px 0;
         border-radius: 15px;
         align-items: center;
-        justify-content: space-evenly
+        justify-content: center;
     }
 
 
@@ -312,6 +312,10 @@ header .hamBurger:hover {
         width: 100vw;
         align-items: center;
         justify-content:center;
+    }
+
+    .popular-car-image {
+        display: none;
     }
 
     header .list {
@@ -391,6 +395,7 @@ header .hamBurger:hover {
         font-size: 12px !important;
     }
 
+
     #popular-cars .popular-cars-container img{
         object-fit: contain;
         transform: scale(0.5);
@@ -406,6 +411,10 @@ header .hamBurger:hover {
     #popular-cars .popular-car-image img {
         position: relative;
         left: 0 !important;
+    }
+
+    #popular-cars .container {
+        margin: 20px 0 ;
     }
 
     #why-us .reasons-container{

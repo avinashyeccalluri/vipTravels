@@ -6,6 +6,10 @@
 </head>
 <body>
     <header>
+            <div class="">
+                <a href="tel:+9842371523">9842371523</a> <br/>
+                <a href="tel:+9345301313">9345301313</a>
+            </div>
         <div class="container">
             <div class="logo">
             <a href="./index.php" class="pt-2">VIP TRAVELS</a>
