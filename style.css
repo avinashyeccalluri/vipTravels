@@ -367,9 +367,13 @@ header .hamBurger:hover {
     }
     
     #car-images .car-list img{
-        width: 397px;
-        margin:40px;
+        width: 300px;
+        height: 200px;
 
+    }
+
+    #car-images {
+        height: 1000px;
     }
 
     #why-us {
