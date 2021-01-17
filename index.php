@@ -47,7 +47,7 @@
         <div class="container">
             <div class="heading">Select your ride</div>
             <div class="tariff" style="font-style: italic;">
-                <div class="car-tariff" data-aos="fade-right" >
+                <div class="car-tariff" data-aos="fade-right" data-aos-duration="750">
                     <ul ">
                         <li><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback <br/> (Indica, Etios Liva)</a></li>
                         <li><a href="./cardetails.php?id=<?php echo 'sedan';?>">Sedan <br/> (Etios, Swift Dzire)</a></li>
@@ -59,7 +59,7 @@
                 <div class="horizontal-line">
                     
                 </div>
-                <div class="airport-tariff" data-aos="fade-left">
+                <div class="airport-tariff" data-aos="fade-left" data-aos-duration="750">
                     <ul>
                         <li>Airport Pickup/Drop</li>
                         <li><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback /-2250</a></li>
@@ -76,20 +76,20 @@
         <div class="container">
         <div class="heading pt-2">First- class car Rentals</div>
             <div class="car-image-list" style="color:white;">
-                <div class="etios car-list">
+                <div class="etios car-list" data-aos="zoom-out-down" data-aos-duration="750">
                     <img src="./images/etios.png" alt="" srcset="">
                     <div class="heading">Etios</div>
                 </div>
-                <div class="swift car-list">
+                <div class="swift car-list" data-aos="zoom-out-down" data-aos-duration="750">
                     <img src="./images/car swift.png" alt="" srcset="">
                     <div class="heading">Swift Dzire</div>
                 </div>
-                <div class="temp-traveller car-list">
+                <div class="temp-traveller car-list" data-aos="zoom-out-down" data-aos-duration="750">
                     <img src="./images/innova.png" alt="" srcset="">
                     <div class="heading">Innova</div>
                     
                 </div>
-                <div class="innova car-list">
+                <div class="innova car-list" data-aos="zoom-out-down" data-aos-duration="750">
                     <img src="./images/tempo.png" alt="" srcset="">
                     <div class="heading">Tempo Traveller</div>
 

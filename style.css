@@ -358,7 +358,7 @@ header .hamBurger:hover {
     }
     #why-us .reasons {
         flex-direction: column;
-        height: 90vh;
+        height: 80vh;
     }
     
     #car-images .car-image-list{
@@ -412,6 +412,10 @@ header .hamBurger:hover {
     
     .car-details {
         font-size: 20px;
+    }
+
+    header .container {
+        height: 7vh;
     }
 
 
