@@ -8,7 +8,7 @@
     <header>
         <div class="container">
             <div class="logo">
-            <a href="./index.php">VIP TRAVELS</a>
+            <a href="./index.php" class="pt-2">VIP TRAVELS</a>
             </div>
             <div class="list">
                 <ul>
@@ -18,7 +18,7 @@
                     <li>Book car</li>
                 </ul>
             </div>
-            <div class="hamBurger">
+            <div class="hamBurger pt-2">
                 <span></span>
                 <span></span>
                 <span></span>

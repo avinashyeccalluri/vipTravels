@@ -156,7 +156,7 @@ header .hamBurger:hover {
     }
 
     #car-images .car-list {
-        margin: 0 20px;
+        margin: 20px 20px;
     }
     /* car images ends here */
     /* reasons */
@@ -373,7 +373,7 @@ header .hamBurger:hover {
     }
 
     #car-images {
-        height: 1000px;
+        height: 1200px;
     }
 
     #why-us {
@@ -420,6 +420,14 @@ header .hamBurger:hover {
 
     header .container {
         height: 7vh;
+        padding-top: 20px;
+    }
+
+    header .hamBurger {
+        padding-top: 15px;
+    }
+    #landing-page {
+        height: 70vh;
     }
 
 
@@ -431,3 +439,4 @@ header .hamBurger:hover {
 .pt-2{
     padding-top: 20px;
 }
+
