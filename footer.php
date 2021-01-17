@@ -9,7 +9,7 @@
     
     <footer>
         <div class="container">
-            <div class="heading">Lets Start Your Journey?</div>
+            <div class="heading pt-2">Lets Start Your Journey?</div>
             <div class="contact-number">9842371523</div>
             <div class="contact-number">9345301313</div>
             <div class="contact-number">viptravels@rediffmail.com</div>

@@ -43,7 +43,7 @@
             <div class="landing-page-sub-heading animate__animated animate__zoomIn animate__delay-1s" style="font-family: 'Luckiest Guy', cursive;" >TO TRAVEL IN AND FROM VELLORE</div>
         </div>
     </section>
-    <section class="select-ride" id="select-ride">
+    <section class="select-ride pt-2" id="select-ride">
         <div class="container">
             <div class="heading">Select your ride</div>
             <div class="tariff" style="font-style: italic;">
@@ -74,24 +74,24 @@
     </section>
     <section id="car-images" class="car-images">
         <div class="container">
-        <div class="heading">First- class car Rentals</div>
-            <div class="car-image-list">
+        <div class="heading pt-2">First- class car Rentals</div>
+            <div class="car-image-list" style="color:white;">
                 <div class="etios car-list">
                     <img src="./images/etios.png" alt="" srcset="">
-                    <div>Etios</div>
+                    <div class="heading">Etios</div>
                 </div>
                 <div class="swift car-list">
                     <img src="./images/car swift.png" alt="" srcset="">
-                    <div>Swift Dzire</div>
+                    <div class="heading">Swift Dzire</div>
                 </div>
                 <div class="temp-traveller car-list">
                     <img src="./images/innova.png" alt="" srcset="">
-                    <div>Innova</div>
+                    <div class="heading">Innova</div>
                     
                 </div>
                 <div class="innova car-list">
                     <img src="./images/tempo.png" alt="" srcset="">
-                    <div>Tempo Traveller</div>
+                    <div class="heading">Tempo Traveller</div>
 
                 </div>
             </div>
@@ -99,7 +99,7 @@
     </section>
     <section id="why-us" class="why-us">
         <div class="container">
-            <div class="heading">
+            <div class="heading pt-2">
                 Why choose VIP TRAVELS ?
             </div>
             <div class="reasons">
@@ -113,7 +113,7 @@
                 </div>
                 <div class="reasons-container" data-aos="flip-up">
                     <div class="reasons-heading">
-                        variety of Locations
+                        Variety of Locations
                     </div>
                     <div class="reasons-text">
                         We have variety of car rental around and in Vellore.
@@ -132,7 +132,7 @@
     </section>
     <section id="popular-cars" class="popular-cars">
         <div class="container">
-            <div class="heading">POPULAR CARS</div>
+            <div class="heading pt-2">POPULAR CARS</div>
             <div class="popular-cars-outline">
                 <div class="popular-cars-container">
                     <div class="popular-car-image">

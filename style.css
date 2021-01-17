@@ -373,7 +373,7 @@ header .hamBurger:hover {
     }
 
     #why-us {
-        height: 90vh;
+        height: 90vh !important;
     }
     .heading, .logo {
         font-size: 20px;
@@ -414,4 +414,12 @@ header .hamBurger:hover {
         font-size: 20px;
     }
 
+
+
+}
+
+/* commons */
+
+.pt-2{
+    padding-top: 20px;
 }
