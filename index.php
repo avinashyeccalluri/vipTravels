@@ -28,10 +28,10 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <!-- semantic ui -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
-    />
+    /> -->
     <!-- semantic ui ends here ...\-->
     <!-- Animate css ends -->
     <!-- google fonts -->
@@ -45,8 +45,8 @@
     <?php @include('./header.php'); ?>
     <section id="landing-page" class="landing-page">
         <div class="container">
-            <div class="landing-page-heading animate__animated  animate__slideInDown" style="font-family: 'Bangers', cursive; font-size:60px">FIND THE BEST CAR</div>
-            <div class="landing-page-sub-heading animate__animated animate__zoomIn animate__delay-1s" style="font-family: 'Luckiest Guy', cursive; margin:50px;font-size:20px" >TO TRAVEL IN AND FROM VELLORE</div>
+            <div class="landing-page-heading animate__animated  animate__slideInDown" style="font-family: 'Bangers', cursive;">FIND THE BEST CAR</div>
+            <div class="landing-page-sub-heading animate__animated animate__zoomIn animate__delay-1s" style="font-family: 'Luckiest Guy', cursive;" >TO TRAVEL IN AND FROM VELLORE</div>
         </div>
     </section>
     <section class="select-ride pt-2" id="select-ride">
@@ -55,11 +55,11 @@
             <div class="tariff" style="font-style: italic;">
                 <div class="car-tariff" data-aos="fade-right" data-aos-duration="750">
                     <ul ">
-                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback <span class="pt-2"> (Indica, Etios Liva)</span></a></li>
-                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'sedan';?>">Sedan  (Etios, Swift Dzire)</a></li>
-                        <li class="pt-2">Xylo</li>
-                        <li class="pt-2">Innova</li>
-                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'temp';?>">Tempo Traveller</a></li>
+                        <li class=""><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback <span class="pt-2"> (Indica, Etios Liva)</span></a></li>
+                        <li class=""><a href="./cardetails.php?id=<?php echo 'sedan';?>">Sedan  (Etios, Swift Dzire)</a></li>
+                        <li class="">Xylo</li>
+                        <li class="">Innova</li>
+                        <li class=""><a href="./cardetails.php?id=<?php echo 'temp';?>">Tempo Traveller</a></li>
                     </ul>
                 </div>
                 <div class="horizontal-line">
@@ -67,12 +67,12 @@
                 </div>
                 <div class="airport-tariff" data-aos="fade-left" data-aos-duration="750">
                     <ul>
-                        <li class="pt-2">Airport Pickup/Drop</li>
-                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback /-2250</a></li>
-                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Sedan /-2300</a></li>
-                        <li class="pt-2">Xylo /-3500</li>
-                        <li class="pt-2">Innova /-3700</li>
-                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'temp';?>">Temp Traveller /-5600</a></li>
+                        <li class="">Airport Pickup/Drop</li>
+                        <li class=""><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback /-2250</a></li>
+                        <li class=""><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Sedan /-2300</a></li>
+                        <li class="">Xylo /-3500</li>
+                        <li class="">Innova /-3700</li>
+                        <li class=""><a href="./cardetails.php?id=<?php echo 'temp';?>">Temp Traveller /-5600</a></li>
                     </ul>
                 </div>
             </div>
