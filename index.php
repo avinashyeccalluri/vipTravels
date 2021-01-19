@@ -55,11 +55,11 @@
             <div class="tariff" style="font-style: italic;">
                 <div class="car-tariff" data-aos="fade-right" data-aos-duration="750">
                     <ul ">
-                        <li class=""><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback <span class="pt-2"> (Indica, Etios Liva)</span></a></li>
-                        <li class=""><a href="./cardetails.php?id=<?php echo 'sedan';?>">Sedan  (Etios, Swift Dzire)</a></li>
+                        <li class=""><a href="./cardetails.php?id=hatchback">Hatchback <span class="pt-2"> (Indica, Etios Liva)</span></a></li>
+                        <li class=""><a href="./cardetails.php?id=sedan">Sedan  (Etios, Swift Dzire)</a></li>
                         <li class="">Xylo</li>
                         <li class="">Innova</li>
-                        <li class=""><a href="./cardetails.php?id=<?php echo 'temp';?>">Tempo Traveller</a></li>
+                        <li class=""><a href="./cardetails.php?id=tempo">Tempo Traveller</a></li>
                     </ul>
                 </div>
                 <div class="horizontal-line">
@@ -68,11 +68,11 @@
                 <div class="airport-tariff" data-aos="fade-left" data-aos-duration="750">
                     <ul>
                         <li class="">Airport Pickup/Drop</li>
-                        <li class=""><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback /-2250</a></li>
-                        <li class=""><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Sedan /-2300</a></li>
+                        <li class=""><a href="./cardetails.php?id=hatchback">Hatchback /-2250</a></li>
+                        <li class=""><a href="./cardetails.php?id=sedan">Sedan /-2300</a></li>
                         <li class="">Xylo /-3500</li>
                         <li class="">Innova /-3700</li>
-                        <li class=""><a href="./cardetails.php?id=<?php echo 'temp';?>">Temp Traveller /-5600</a></li>
+                        <li class=""><a href="./cardetails.php?id=tempo">Temp Traveller /-5600</a></li>
                     </ul>
                 </div>
             </div>
@@ -82,24 +82,30 @@
         <div class="container">
         <div class="heading pt-2">First- class car Rentals</div>
             <div class="car-image-list" style="color:white;">
-                <div class="etios car-list" data-aos="zoom-out-down" data-aos-duration="750">
-                    <img src="./images/etios.png" alt="" srcset="">
-                    <div class="heading pt-2">Etios</div>
-                </div>
+                <a href="./cardetails.php?id=hatchback">
+                    <div class="etios car-list" data-aos="zoom-out-down" data-aos-duration="750">
+                        <img src="./images/etios.png" alt="" srcset="">
+                        <div class="heading pt-2">Etios</div>
+                    </div>
+                </a>
+                <a href="./cardetails.php?id=hatchback">
                 <div class="swift car-list" data-aos="zoom-out-down" data-aos-duration="750">
                     <img src="./images/car swift.png" alt="" srcset="">
                     <div class="heading pt-2">Swift Dzire</div>
                 </div>
-                <div class="temp-traveller car-list" data-aos="zoom-out-down" data-aos-duration="750">
-                    <img src="./images/innova.png" alt="" srcset="">
-                    <div class="heading pt-2">Innova</div>
-                    
-                </div>
-                <div class="innova car-list" data-aos="zoom-out-down" data-aos-duration="750">
-                    <img src="./images/tempo.png" alt="" srcset="">
-                    <div class="heading pt-2">Tempo Traveller</div>
-
-                </div>
+                </a>
+                <!-- <a href=""> -->
+                    <div class="temp-traveller car-list" data-aos="zoom-out-down" data-aos-duration="750">
+                        <img src="./images/innova.png" alt="" srcset="">
+                        <div class="heading pt-2">Innova</div>
+                    </div>
+                <!-- </a> -->
+                <a href="./cardetails.php?id=tempo">
+                    <div class="innova car-list" data-aos="zoom-out-down" data-aos-duration="750">
+                        <img src="./images/tempo.png" alt="" srcset="">
+                        <div class="heading pt-2">Tempo Traveller</div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>

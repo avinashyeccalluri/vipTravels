@@ -1,21 +1,21 @@
 <?php 
 $details = [
     'hatchback' => [
-        'minPrice'=> '9',
-        'airPortPrice' =>'2250',
-        'minPrice' => '9.5',
-        'maxprice'=> '10.5'
+        'minPrice'=> 'Rs.9',
+        'airPortPrice' =>'Rs.2250',
+        'minPrice' => 'Rs.9.5',
+        'maxprice'=> 'Rs.10.5'
     ],
     'sedan' => [
-        'minPrice'=> '10',
-        'airPortPrice' =>'2300',
-        'minPrice' => '10',
-        'maxprice'=> '10.5'
+        'minPrice'=> 'Rs.10',
+        'airPortPrice' =>'Rs.2300',
+        'minPrice' => 'Rs.10',
+        'maxprice'=> 'Rs.10.5'
     ],
     'tempo' => [
-        'minPrice'=> '15',
-        'airPortPrice' =>'5600',
-        'minPrice' => '20',
+        'minPrice'=> 'Rs.15',
+        'airPortPrice' =>'Rs.5600',
+        'maxprice' => 'Rs.20',
     ],
 ];
 ?>

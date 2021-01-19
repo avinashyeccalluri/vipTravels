@@ -23,9 +23,14 @@
     </section>
     <section class="car-type-pricing">
         <div class="car-details">
-            CHENNAI AIRPORT PICKUP/DROP **- <?php echo $details[$_REQUEST['id']]['airPortPrice']; ?> <br/>
+            CHENNAI AIRPORT PICKUP/DROP: **- <?php echo $details[$_REQUEST['id']]['airPortPrice']; ?> <br/>
             ROUND TRIP  <br/>
-            PRICE STARTS FROM <?php echo $details[$_REQUEST['id']]['minPrice']; ?> - <?php echo $details[$_REQUEST['id']]['maxprice']; ?> <br/>
+            PRICE STARTS FROM: <?php echo $details[$_REQUEST['id']]['minPrice']; 
+            if(isset($details[$_REQUEST['id']]['maxprice'])){
+
+                echo ' - '. $details[$_REQUEST['id']]['maxprice']  .'<br/>';
+            }
+            ?>
             CHENNAI  <br/>
             PONDICHERRY<br/>
             BANGALORE<br/>

@@ -9,10 +9,10 @@
         <div class="outer-container">
             <div class="contact-numbers">
                 <div >
-                    <strong><a class="numbers" href="tel:+9842371523"><i class="phone icon"></i>  9842371523</a></strong>
+                    <strong><a class="numbers" href="tel:+9842371523"><i class="phone icon"></i>  +(91)9842371523</a></strong>
                 </div>
                 <div>
-                    <strong><a class="numbers" href="tel:+9345301313"><i class="phone icon"></i>  9345301313</a></strong>
+                    <strong><a class="numbers" href="tel:+9345301313"><i class="phone icon"></i>  +(91)9345301313</a></strong>
                 </div>
             </div>
             <div class="container">
