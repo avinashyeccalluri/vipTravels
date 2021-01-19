@@ -27,6 +27,12 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- semantic ui -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+    <!-- semantic ui ends here ...\-->
     <!-- Animate css ends -->
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -39,8 +45,8 @@
     <?php @include('./header.php'); ?>
     <section id="landing-page" class="landing-page">
         <div class="container">
-            <div class="landing-page-heading animate__animated  animate__slideInDown" style="font-family: 'Bangers', cursive;">FIND THE BEST CAR</div>
-            <div class="landing-page-sub-heading animate__animated animate__zoomIn animate__delay-1s" style="font-family: 'Luckiest Guy', cursive;" >TO TRAVEL IN AND FROM VELLORE</div>
+            <div class="landing-page-heading animate__animated  animate__slideInDown" style="font-family: 'Bangers', cursive; font-size:60px">FIND THE BEST CAR</div>
+            <div class="landing-page-sub-heading animate__animated animate__zoomIn animate__delay-1s" style="font-family: 'Luckiest Guy', cursive; margin:50px;font-size:20px" >TO TRAVEL IN AND FROM VELLORE</div>
         </div>
     </section>
     <section class="select-ride pt-2" id="select-ride">
@@ -49,11 +55,11 @@
             <div class="tariff" style="font-style: italic;">
                 <div class="car-tariff" data-aos="fade-right" data-aos-duration="750">
                     <ul ">
-                        <li><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback <br/> (Indica, Etios Liva)</a></li>
-                        <li><a href="./cardetails.php?id=<?php echo 'sedan';?>">Sedan <br/> (Etios, Swift Dzire)</a></li>
-                        <li>Xylo</li>
-                        <li>Innova</li>
-                        <li><a href="./cardetails.php?id=<?php echo 'temp';?>">Tempo Traveller</a></li>
+                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback <span class="pt-2"> (Indica, Etios Liva)</span></a></li>
+                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'sedan';?>">Sedan  (Etios, Swift Dzire)</a></li>
+                        <li class="pt-2">Xylo</li>
+                        <li class="pt-2">Innova</li>
+                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'temp';?>">Tempo Traveller</a></li>
                     </ul>
                 </div>
                 <div class="horizontal-line">
@@ -61,12 +67,12 @@
                 </div>
                 <div class="airport-tariff" data-aos="fade-left" data-aos-duration="750">
                     <ul>
-                        <li>Airport Pickup/Drop</li>
-                        <li><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback /-2250</a></li>
-                        <li><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Sedan /-2300</a></li>
-                        <li>Xylo /-3500</li>
-                        <li>Innova /-3700</li>
-                        <li><a href="./cardetails.php?id=<?php echo 'temp';?>">Temp Traveller /-5600</a></li>
+                        <li class="pt-2">Airport Pickup/Drop</li>
+                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Hatchback /-2250</a></li>
+                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'hatchback';?>">Sedan /-2300</a></li>
+                        <li class="pt-2">Xylo /-3500</li>
+                        <li class="pt-2">Innova /-3700</li>
+                        <li class="pt-2"><a href="./cardetails.php?id=<?php echo 'temp';?>">Temp Traveller /-5600</a></li>
                     </ul>
                 </div>
             </div>
@@ -78,20 +84,20 @@
             <div class="car-image-list" style="color:white;">
                 <div class="etios car-list" data-aos="zoom-out-down" data-aos-duration="750">
                     <img src="./images/etios.png" alt="" srcset="">
-                    <div class="heading">Etios</div>
+                    <div class="heading pt-2">Etios</div>
                 </div>
                 <div class="swift car-list" data-aos="zoom-out-down" data-aos-duration="750">
                     <img src="./images/car swift.png" alt="" srcset="">
-                    <div class="heading">Swift Dzire</div>
+                    <div class="heading pt-2">Swift Dzire</div>
                 </div>
                 <div class="temp-traveller car-list" data-aos="zoom-out-down" data-aos-duration="750">
                     <img src="./images/innova.png" alt="" srcset="">
-                    <div class="heading">Innova</div>
+                    <div class="heading pt-2">Innova</div>
                     
                 </div>
                 <div class="innova car-list" data-aos="zoom-out-down" data-aos-duration="750">
                     <img src="./images/tempo.png" alt="" srcset="">
-                    <div class="heading">Tempo Traveller</div>
+                    <div class="heading pt-2">Tempo Traveller</div>
 
                 </div>
             </div>
@@ -105,7 +111,7 @@
             <div class="reasons">
                 <div class="reasons-container" data-aos="fade-up-right">
                     <div class="reasons-heading">
-                        <i class="star"></i> Premium Service
+                    <i class="star icon"></i> Premium Service
                     </div>
                     <div class="reasons-text">
                         Rent car provides high quality service to everyone who is looking for reliable car rentals
@@ -113,6 +119,7 @@
                 </div>
                 <div class="reasons-container" data-aos="flip-up">
                     <div class="reasons-heading">
+                    <i class="map marker icon"></i>
                         Variety of Locations
                     </div>
                     <div class="reasons-text">
@@ -121,6 +128,7 @@
                 </div>
                 <div class="reasons-container" data-aos="fade-up-left">
                     <div class="reasons-heading">
+                    <i class="thumbs up icon"></i>
                         Qualified Team
                     </div>
                     <div class="reasons-text">

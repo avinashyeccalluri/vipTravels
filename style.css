@@ -14,11 +14,16 @@ body{
 }
 a {
     text-decoration: none;
-    color: black;
+    color: black !important;
 }
 header .outer-container {
     display:flex;
     flex-direction: column;
+}
+header .brand{
+    color: var(--yellow) !important;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
 }
 header .contact-numbers{
     display: flex;
@@ -130,7 +135,7 @@ header .hamBurger:hover {
         font-family: 'Oswald', sans-serif;
         font-weight: normal;
         font-size:40px;
-        padding : 0 300px;
+        padding : 0 200px;
     }
     
     #select-ride .container ul {
@@ -296,6 +301,7 @@ header .hamBurger:hover {
         font-size :25px;
         font-weight : bolder;
     }
+    /*  */
 
     .car-details {
         text-align: center;
@@ -441,12 +447,12 @@ header .hamBurger:hover {
     }
 
     header .container {
-        height: 7vh;
+        height: 9vh;
         padding-top: 20px;
     }
 
     header .hamBurger {
-        padding-top: 15px;
+        padding-top: 32px;
     }
     #landing-page {
         height: 70vh;
@@ -455,6 +461,13 @@ header .hamBurger:hover {
     header .contact-numbers{
         display: flex;
         justify-content: flex-start;
+    }
+    
+    header .brand{
+        font-size:40px;
+        width:auto;
+        display: block ruby;
+        padding:0;
     }
 
 

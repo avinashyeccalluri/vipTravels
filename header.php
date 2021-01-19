@@ -9,15 +9,15 @@
         <div class="outer-container">
             <div class="contact-numbers">
                 <div >
-                    <strong><a class="numbers" href="tel:+9842371523">9842371523</a></strong>
+                    <strong><a class="numbers" href="tel:+9842371523"><i class="phone icon"></i>  9842371523</a></strong>
                 </div>
                 <div>
-                    <strong><a class="numbers" href="tel:+9345301313">9345301313</a></strong>
+                    <strong><a class="numbers" href="tel:+9345301313"><i class="phone icon"></i>  9345301313</a></strong>
                 </div>
             </div>
             <div class="container">
                 <div class="logo">
-                <a href="./index.php" class="pt-2" style="font-family: 'Luckiest Guy', cursive;">VIP TRAVELS</a>
+                <a href="./index.php" class="pt-2 brand" >VIP TRAVELS</a>
                 </div>
                 <div class="list">
                     <ul>
