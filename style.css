@@ -16,6 +16,19 @@ a {
     text-decoration: none;
     color: black;
 }
+header .outer-container {
+    display:flex;
+    flex-direction: column;
+}
+header .contact-numbers{
+    display: flex;
+    justify-content: flex-end;
+}
+header .numbers {
+    margin-right: 20px;
+    margin-top: 20px;
+    align-content: flex-end;
+}
 .heading {
     font-size: 45px;
     font-weight: bolder;
@@ -304,7 +317,7 @@ header .hamBurger:hover {
 
     header .list{
         position: absolute;
-        top: -110px;
+        top: -130px;
         transition: all 0.5s ease;
     }
     header .list ul {
@@ -340,7 +353,7 @@ header .hamBurger:hover {
     }
 
     header .is-active {
-        top: 20px;
+        top: 60px;
 
     }
     
@@ -437,6 +450,11 @@ header .hamBurger:hover {
     }
     #landing-page {
         height: 70vh;
+    }
+    
+    header .contact-numbers{
+        display: flex;
+        justify-content: flex-start;
     }
 
 
