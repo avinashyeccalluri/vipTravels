@@ -480,3 +480,9 @@ header .hamBurger:hover {
     padding-top: 20px;
 }
 
+.car-type-pricing img{
+    height: 60vh;
+    width: 100vw;
+    object-fit: contain;
+    background-color:white
+}

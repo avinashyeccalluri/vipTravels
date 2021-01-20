@@ -23,6 +23,7 @@
     </section>
     <section class="car-type-pricing">
         <div class="car-details">
+        <img src="./images/<?php echo $_REQUEST['id']; ?>/<?php echo $_REQUEST['id'].'.jpg'; ?>" alt=""  srcset="" class="car-types">
             CHENNAI AIRPORT PICKUP/DROP: **- <?php echo $details[$_REQUEST['id']]['airPortPrice']; ?> <br/>
             ROUND TRIP  <br/>
             PRICE STARTS FROM: <?php echo $details[$_REQUEST['id']]['minPrice']; 
